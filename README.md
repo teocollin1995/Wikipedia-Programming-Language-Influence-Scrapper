@@ -28,3 +28,4 @@ Plans:
 1. Deal with duplicates and non-programming language influences.
 2. Make the color code clearer.
 3. Deal with a mydriad of bugs relating to keyerrors.
+4. Make node size in accordance with the area rule.
