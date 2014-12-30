@@ -8,6 +8,7 @@ Key:
 
 -An arrow from one language to another means that that the former language influenced the latter language.
 -The size of the node is linerly related to the number of languages that a language influenced. 
+
 -----------------
 Color key:
 
@@ -20,6 +21,7 @@ Color key:
 -Languages made between 2005 and 2010 are light pink.
 -Languages made between 2010 and 2015 are red.
 -Languages where there was an error determining the release date are colored white.
+
 -----------------
 Plans:
 1. Deal with duplicates and non-programmaning language influences.
