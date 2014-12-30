@@ -5,10 +5,12 @@ Results:
 ![Alt text](/Sampleoutput/result.png "Results!")
 -----------------
 Key:
+
 -An arrow from one language to another means that that the former language influenced the latter language.
 -The size of the node is linerly related to the number of languages that a language influenced. 
 -----------------
 Color key:
+
 -Languages made before 1960 are colored violet.
 -Languages made between 1960 and 1970 are blue.
 -Languages made between 1970 and 1980 are green.
