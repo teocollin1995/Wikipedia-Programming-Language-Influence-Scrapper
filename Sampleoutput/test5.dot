@@ -1,0 +1,1880 @@
+strict digraph  {
+	Mercury	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	CPL	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	C	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=6.7];
+	CPL -> C;
+	CPL -> "POP-2";
+	BCPL	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	CPL -> BCPL;
+	Self	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	ECMAScript	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Self -> ECMAScript;
+	JavaScript	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	Self -> JavaScript;
+	Self -> Agora;
+	Lua	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	Self -> Lua;
+	Factor	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Self -> Factor;
+	Cel	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Self -> Cel;
+	Self -> Squeak;
+	Self -> REBOL;
+	MOO	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Self -> MOO;
+	Lisaac	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Self -> Lisaac;
+	Io	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Self -> Io;
+	NewtonScript	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Self -> NewtonScript;
+	Fortran	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Ratfor	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Fortran -> Ratfor;
+	Fortran -> "PACT I";
+	BASIC	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Fortran -> BASIC;
+	"ALGOL 58"	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Fortran -> "ALGOL 58";
+	"PL/I"	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Fortran -> "PL/I";
+	Fortran -> C;
+	S	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Fortran -> S;
+	MUMPS	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Fortran -> MUMPS;
+	SISAL	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Fortran -> SISAL;
+	Rebol	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Red	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Rebol -> Red;
+	Rebol -> JSON;
+	EuLisp	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ObjVlisp -> EuLisp;
+	"Common Lisp"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	"Lisp Machine Lisp" -> "Common Lisp";
+	Oberon	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Oberon -> Zonnon;
+	Go	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Oberon -> Go;
+	"Modula-3"	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Oberon -> "Modula-3";
+	"Oberon-2"	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Oberon -> "Oberon-2";
+	Java	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=4.7];
+	Oberon -> Java;
+	Haskell	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=7.7];
+	Gofer -> Haskell;
+	"C--"	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Visual Basic .NET"	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"FORTRAN II" -> BASIC;
+	Oaklisp	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Oaklisp -> EuLisp;
+	Dylan	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Oaklisp -> Dylan;
+	Oaklisp -> Java;
+	ISWIM	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	ML	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=3.7];
+	ISWIM -> ML;
+	Miranda	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ISWIM -> Miranda;
+	ISWIM -> Haskell;
+	SASL	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ISWIM -> SASL;
+	Clean	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ISWIM -> Clean;
+	Lucid	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	ISWIM -> Lucid;
+	InterLisp -> EuLisp;
+	InterLisp -> "Common Lisp";
+	"ALGOL 68"	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	S3	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"ALGOL 68" -> S3;
+	"ALGOL 68" -> Steelman;
+	"ALGOL 68" -> r0;
+	"C++"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=3.7];
+	"ALGOL 68" -> "C++";
+	"ALGOL 68" -> Bash;
+	"ALGOL 68" -> C;
+	Python	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=3.7];
+	"ALGOL 68" -> Python;
+	Seed7	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"ALGOL 68" -> Seed7;
+	"ALGOL 68" -> "Bourne shell";
+	Ada	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	"ALGOL 68" -> Ada;
+	Mary	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"ALGOL 68" -> Mary;
+	SNOBOL	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	SNOBOL -> Lua;
+	AWK	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	SNOBOL -> AWK;
+	Icon	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	SNOBOL -> Icon;
+	Swift	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Rust	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Swift -> Rust;
+	"C Sharp"	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	"Modula-3" -> "C Sharp";
+	"Modula-3" -> "C#";
+	"Modula-3" -> Python;
+	Caml	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Modula-3" -> Caml;
+	"Modula-3" -> Java;
+	"Modula-2"	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	"Modula-2" -> Oberon;
+	"Modula-2" -> Zonnon;
+	"Modula-2" -> "Modula-3";
+	"Modula-2" -> Lua;
+	"Modula-2" -> "Fortran 90";
+	"Modula-2" -> Seed7;
+	"Modula-2+"	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Modula-2" -> "Modula-2+";
+	"Modula-2" -> Ada;
+	COBOL	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	AIMACO -> COBOL;
+	K	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	LiveCode	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Curry	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Rust -> Swift;
+	Idris	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Rust -> Idris;
+	Elm	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Rust -> Elm;
+	ML -> "C Sharp";
+	ML -> "F#";
+	Erlang	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	ML -> Erlang;
+	ML -> Miranda;
+	ML -> Haskell;
+	Cyclone	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ML -> Cyclone;
+	Cool	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ML -> Cool;
+	ML -> "C++";
+	Opa	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ML -> Opa;
+	Felix	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ML -> Felix;
+	Nemerle	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ML -> Nemerle;
+	"Standard ML"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	ML -> "Standard ML";
+	ML -> Caml;
+	Scala	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	ML -> Scala;
+	Clojure	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ML -> Clojure;
+	"Concurrent Euclid"	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Concurrent Euclid" -> "Turing Plus";
+	Epigram	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	FP	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	FL	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	FP -> FL;
+	FP -> Haskell;
+	J	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	FP -> J;
+	FP -> FPr;
+	Scratch	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	HyperCard -> Scratch;
+	Etoys	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	HyperCard -> Etoys;
+	VHDL	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Quark Framework"	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	FL -> J;
+	Limbo	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Limbo -> Go;
+	Limbo -> Rust;
+	Limbo -> "Stackless Python";
+	Oxygene	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scheme	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=3.7];
+	MDL -> Scheme;
+	"C Sharp" -> Swift;
+	"C Sharp" -> "F#";
+	"C Sharp" -> Monkey;
+	Kotlin	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"C Sharp" -> Kotlin;
+	Vala	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"C Sharp" -> Vala;
+	"C Sharp" -> "Polyphonic C#";
+	"C Sharp" -> Nemerle;
+	Dart	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"C Sharp" -> Dart;
+	"C Sharp" -> "Spec#";
+	D	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	"C Sharp" -> D;
+	"C Sharp" -> Java;
+	Cω	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"C Sharp" -> Cω;
+	"citation needed" -> Go;
+	LiveScript	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	MacLisp -> "Common Lisp";
+	JavaScript -> LiveScript;
+	"Perl 6"	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	JavaScript -> "Perl 6";
+	JavaScript -> AtScript;
+	"Objective-J"	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	JavaScript -> "Objective-J";
+	CoffeeScript	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	JavaScript -> CoffeeScript;
+	TypeScript	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	JavaScript -> TypeScript;
+	JavaScript -> Dart;
+	JavaScript -> "Node.js";
+	QML	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	JavaScript -> QML;
+	"JScript .NET"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	JavaScript -> "JScript .NET";
+	ActionScript	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	JavaScript -> ActionScript;
+	AgentSheets	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	AgentSheets -> Scratch;
+	AgentSheets -> Etoys;
+	"Turing+"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Object-Oriented Turing"	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Turing+" -> "Object-Oriented Turing";
+	Gambas	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"F#" -> "C Sharp";
+	"F*"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"ALGOL 60"	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	"ALGOL 60" -> CPL;
+	"ALGOL 60" -> "ALGOL 68";
+	"ALGOL 60" -> BASIC;
+	CLU	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	"ALGOL 60" -> CLU;
+	"ALGOL 60" -> C;
+	"ALGOL 60" -> Ada;
+	Pascal	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=4.7];
+	"ALGOL 60" -> Pascal;
+	Simula	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	"ALGOL 60" -> Simula;
+	Smalltalk	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=6.7];
+	Smalltalk -> Self;
+	Smalltalk -> Oaklisp;
+	Smalltalk -> Erlang;
+	Falcon	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> Falcon;
+	Smalltalk -> Dylan;
+	Smalltalk -> COBOL;
+	Lasso	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> Lasso;
+	Smalltalk -> Cel;
+	Smalltalk -> "Perl 6";
+	Groovy	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> Groovy;
+	Smalltalk -> "Common Lisp Object System";
+	Smalltalk -> Scratch;
+	"Object REXX"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> "Object REXX";
+	"Objective-C"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Smalltalk -> "Objective-C";
+	PHP	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> PHP;
+	Smalltalk -> MOO;
+	"Object Pascal"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Smalltalk -> "Object Pascal";
+	Smalltalk -> Python;
+	Smalltalk -> Lisaac;
+	Smalltalk -> Io;
+	Smalltalk -> Dart;
+	AppleScript	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> AppleScript;
+	Smalltalk -> NewtonScript;
+	Smalltalk -> Java;
+	Smalltalk -> Scala;
+	Smalltalk -> Etoys;
+	Ruby	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	Smalltalk -> Ruby;
+	Logtalk	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> Logtalk;
+	Smalltalk -> Ada;
+	Ioke	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> Ioke;
+	Fancy	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Smalltalk -> Fancy;
+	CLOS -> EuLisp;
+	CLOS -> Dylan;
+	"Cadence SKILL"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	CLOS -> "Cadence SKILL";
+	Erlang -> Rust;
+	Erlang -> "F#";
+	Erlang -> Opa;
+	Elixir	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Erlang -> Elixir;
+	Reia	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Erlang -> Reia;
+	Erlang -> Dart;
+	Oz	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Erlang -> Oz;
+	Erlang -> Scala;
+	Erlang -> Clojure;
+	Pizza	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Generic Java"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Pizza -> "Generic Java";
+	Pizza -> Scala;
+	"Caché ObjectScript"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scheme -> Oaklisp;
+	Scheme -> ECMAScript;
+	Scheme -> JavaScript;
+	Sather	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scheme -> Sather;
+	Scheme -> EuLisp;
+	Scheme -> Dylan;
+	Scheme -> Haskell;
+	Scheme -> Lua;
+	R	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scheme -> R;
+	Racket	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scheme -> Racket;
+	Scheme -> S;
+	Scheme -> "Cadence SKILL";
+	Scheme -> MOO;
+	Julia	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scheme -> Julia;
+	T	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scheme -> T;
+	Scheme -> Ruby;
+	Scheme -> Clojure;
+	Scheme -> Hop;
+	Scheme -> "Common Lisp";
+	Sather -> Rust;
+	Sather -> Cool;
+	EuLisp -> Dylan;
+	EuLisp -> ISLISP;
+	Miranda -> Haskell;
+	Miranda -> Clean;
+	Dylan -> EuLisp;
+	Dylan -> Lasso;
+	Goo	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Dylan -> Goo;
+	Dylan -> Python;
+	Dylan -> NewtonScript;
+	Dylan -> Ruby;
+	Lisp	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=7.7];
+	Lisp -> Rebol;
+	Lisp -> Shen;
+	Lisp -> ML;
+	Lisp -> MDL;
+	Lisp -> JavaScript;
+	Lisp -> Smalltalk;
+	Lisp -> Scheme;
+	Lisp -> Falcon;
+	Lisp -> Dylan;
+	Lisp -> Haskell;
+	LPC	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Lisp -> LPC;
+	Perl	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	Lisp -> Perl;
+	Lisp -> Lua;
+	Lisp -> CLIPS;
+	Lisp -> R;
+	Lisp -> 11;
+	RPL	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lisp -> RPL;
+	Lisp -> Qi;
+	Lisp -> CLU;
+	Nial	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lisp -> Nial;
+	Tcl	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lisp -> Tcl;
+	Lisp -> MOO;
+	Logo	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Lisp -> Logo;
+	COWSEL	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lisp -> COWSEL;
+	Lisp -> Nemerle;
+	Lisp -> Python;
+	Lisp -> Julia;
+	Lisp -> Io;
+	Lisp -> Oz;
+	PostScript	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lisp -> PostScript;
+	Forth	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Lisp -> Forth;
+	Lisp -> Ruby;
+	Nu	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lisp -> Nu;
+	Lisp -> Ioke;
+	Lisp -> "POP-2";
+	Lisp -> Mathematica;
+	Lisp -> OPS5;
+	Lisp -> "Common Lisp";
+	Orwell	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Orwell -> Haskell;
+	"FLOW-MATIC"	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"FLOW-MATIC" -> COBOL;
+	Haskell -> Mercury;
+	Haskell -> Gofer;
+	Haskell -> Swift;
+	Haskell -> Curry;
+	Haskell -> Epigram;
+	Haskell -> Cayenne;
+	Haskell -> "Quark Framework";
+	Haskell -> Generics;
+	Haskell -> "C Sharp";
+	Haskell -> "citation needed";
+	Haskell -> LiveScript;
+	Haskell -> "F#";
+	Haskell -> CAL;
+	Haskell -> LINQ;
+	Haskell -> Timber;
+	Haskell -> Helium;
+	Haskell -> Bluespec;
+	Haskell -> "Perl 6";
+	Haskell -> "C++11";
+	Haskell -> Omega;
+	Haskell -> Concepts;
+	Haskell -> Qi;
+	Agda	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Haskell -> Agda;
+	Haskell -> "Visual Basic 9.0";
+	Haskell -> CoffeeScript;
+	Haskell -> Idris;
+	Haskell -> Isabelle;
+	Haskell -> "C#";
+	Haskell -> Python;
+	Haskell -> Clean;
+	Frege	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Haskell -> Frege;
+	Haskell -> Java;
+	Haskell -> Scala;
+	Haskell -> Clojure;
+	Haskell -> Elm;
+	"Language Integrated Query"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Haskell -> "Language Integrated Query";
+	Escher	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Haskell -> Escher;
+	Ceylon	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	CoolMUD	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ColdC	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	CoolMUD -> ColdC;
+	StarLogo	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	StarLogo -> Scratch;
+	StarLogo -> Etoys;
+	NetLogo	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	StarLogo -> NetLogo;
+	Speedcoding	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Speedcoding -> Fortran;
+	Speedcoding -> Ratfor;
+	Speedcoding -> "PACT I";
+	Speedcoding -> BASIC;
+	Speedcoding -> "ALGOL 58";
+	Speedcoding -> "PL/I";
+	Speedcoding -> C;
+	Speedcoding -> MUMPS;
+	"UCSD Pascal" -> Java;
+	LPC -> MudOS;
+	LPC -> LDMud;
+	LPC -> DGD;
+	Pike	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	LPC -> Pike;
+	SWLPC	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	LPC -> SWLPC;
+	LPC -> FluffOS;
+	Strongtalk -> Dart;
+	"simple theory of types" -> Escher;
+	IPL -> Lisp;
+	APL	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	APL -> K;
+	APL -> Q;
+	APL -> Nial;
+	APL -> S;
+	APL -> MATLAB;
+	APL -> PPL;
+	APL -> Forth;
+	APL -> ELI;
+	APL -> J;
+	APL -> Mathematica;
+	"A+"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	APL -> "A+";
+	Prolog	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	PLANNER -> Prolog;
+	"Information Processing Language"	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Information Processing Language" -> Lisp;
+	Perl -> Javascript;
+	Perl -> ECMAScript;
+	Perl -> "Windows PowerShell";
+	Perl -> Falcon;
+	Perl -> LPC;
+	Perl -> "Perl 6";
+	Perl -> PHP;
+	Perl -> Python;
+	Perl -> Julia;
+	Perl -> Qore;
+	Perl -> Ruby;
+	Lua -> GameMonkey;
+	Lua -> Falcon;
+	MiniD	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lua -> MiniD;
+	Lua -> "GSL Shell";
+	Squirrel	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Lua -> Squirrel;
+	Lua -> Idle;
+	Lua -> Julia;
+	Lua -> Io;
+	Lua -> Metalua;
+	Lua -> Ruby;
+	ABC	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	ABC -> Python;
+	Factor -> Cat;
+	Factor -> Concat;
+	"Generic Java" -> Java;
+	COBOL -> "PL/I";
+	Joule	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Joule -> E;
+	OCaml	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	Cool -> OCaml;
+	CSP -> Limbo;
+	SmallTalk -> Lasso;
+	"Spec Sharp"	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Spec Sharp" -> "Sing#";
+	MUF	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	MUF -> CoolMUD;
+	MUF -> MOO;
+	MUF -> ColdC;
+	ATS	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Perl 5" -> "Perl 6";
+	SASL -> Miranda;
+	SASL -> Haskell;
+	SASL -> KRC;
+	Mesa	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Mesa -> "Modula-2";
+	Mesa -> Java;
+	B	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	B -> C;
+	Rexx	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Algol -> Rexx;
+	Algol -> MOO;
+	"Unified Parallel C"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"[note 1]" -> "C Sharp";
+	"Ada 83" -> Java;
+	"Algol-W" -> "Modula-2";
+	Cilk	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	BASIC -> "Visual Basic .NET";
+	BASIC -> AutoIt;
+	BASIC -> Realbasic;
+	"Visual Basic"	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	BASIC -> "Visual Basic";
+	BASIC -> AutoHotkey;
+	BASIC -> GRASS;
+	COMAL	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	BASIC -> COMAL;
+	Unicon	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"ALGOL 58" -> "Algol-like";
+	Rexx -> "Object REXX";
+	Rexx -> ooREXX;
+	NetRexx	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Rexx -> NetRexx;
+	Groovy -> Kotlin;
+	LeLisp -> EuLisp;
+	"C++" -> "C Sharp";
+	"C++" -> Falcon;
+	"C++" -> LPC;
+	"C++" -> Perl;
+	"C++" -> Lua;
+	"C++" -> COBOL;
+	"C++" -> Pike;
+	"C++" -> C99;
+	"C++" -> PHP;
+	"C++" -> "C#";
+	"C++" -> Python;
+	"C++" -> "Ada 95";
+	"C++" -> D;
+	"C++" -> Java;
+	"C++" -> Seed7;
+	"C++" -> Ruby;
+	"C++" -> Ada;
+	SPARK	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Euclid	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Euclid -> "Concurrent Euclid";
+	Euclid -> Mesa;
+	Turing	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Euclid -> Turing;
+	Cobra	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scratch -> "Scratch Jr";
+	Modula	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Modula -> Go;
+	Modula -> "Modula-2";
+	Modula -> Lua;
+	Id -> Haskell;
+	Racket -> Rust;
+	Racket -> "citation needed";
+	Racket -> Scheme;
+	Racket -> Clojure;
+	FACT -> COBOL;
+	"Caml Light" -> OCaml;
+	CLU -> Swift;
+	CLU -> Sather;
+	CLU -> Lua;
+	CLU -> "C++";
+	CLU -> Argus;
+	CLU -> Ruby;
+	CLU -> Ada;
+	Eiffel	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	Eiffel -> "C Sharp";
+	Eiffel -> Sather;
+	Eiffel -> "Ada 2012";
+	Eiffel -> SPARK;
+	Eiffel -> Racket;
+	Eiffel -> "C#";
+	Eiffel -> Lisaac;
+	Eiffel -> D;
+	Eiffel -> Java;
+	Eiffel -> Scala;
+	Eiffel -> Ruby;
+	Eiffel -> Ada;
+	AWK -> ECMAScript;
+	AWK -> JavaScript;
+	AWK -> "Korn Shell";
+	AWK -> Perl;
+	AWK -> Lua;
+	AWK -> Tcl;
+	AMPL	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	AWK -> AMPL;
+	Agda -> Idris;
+	Act1 -> Io;
+	"Object REXX" -> NetRexx;
+	"Objective-C" -> Swift;
+	"Objective-C" -> Cel;
+	"Objective-C" -> "Objective-J";
+	"Objective-C" -> TOM;
+	"Objective-C" -> Java;
+	"Objective-C" -> Nu;
+	"Split-C"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Split-C" -> "Unified Parallel C";
+	Mirah	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	occam	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Communicating Sequential Processes" -> occam;
+	"PL/I" -> B;
+	"PL/I" -> Rexx;
+	"PL/I" -> C;
+	"PL/I" -> REXX;
+	"SP/k"	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"PL/I" -> "SP/k";
+	"PL/I" -> NetRexx;
+	"PL/I" -> "AS/400 Control Language";
+	Interpress -> PostScript;
+	"Component Pascal"	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Visual Basic" -> "Visual Basic .NET";
+	"Visual Basic" -> Gambas;
+	"Visual Basic" -> Xojo;
+	Basic4ppc	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Visual Basic" -> Basic4ppc;
+	Hack	 [fillcolor=red,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	PHP -> Hack;
+	Verilog	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	SystemVerilog	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Verilog -> SystemVerilog;
+	BitC	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	CoffeeScript -> LiveScript;
+	CoffeeScript -> MoonScript;
+	C -> "C--";
+	C -> Go;
+	C -> ECMAScript;
+	C -> Rust;
+	C -> Limbo;
+	C -> JavaScript;
+	C -> csh;
+	C -> LPC;
+	C -> Perl;
+	C -> Cyclone;
+	C -> Pike;
+	C -> "Unified Parallel C";
+	C -> Cilk;
+	C -> "C++";
+	C -> AWK;
+	C -> "Objective-C";
+	C -> "Split-C";
+	C -> PHP;
+	C -> Verilog;
+	C -> BitC;
+	C -> S;
+	C -> MOO;
+	C -> Numerous;
+	"C*"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	C -> "C*";
+	C -> "C#";
+	Processing	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	C -> Processing;
+	C -> Python;
+	C -> SISAL;
+	C -> D;
+	C -> ColdC;
+	C -> Java;
+	C -> Seed7;
+	C -> AMPL;
+	TELCOMP	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	TELCOMP -> MUMPS;
+	Genie	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"IBM i Control Language"	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"IBM i Control Language" -> "Windows PowerShell";
+	Tcl -> PHP;
+	Tcl -> PowerShell;
+	Tea	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Tcl -> Tea;
+	MOO -> CoolMUD;
+	MOO -> ColdC;
+	Logo -> Smalltalk;
+	Logo -> StarLogo;
+	Logo -> Scratch;
+	Logo -> REBOL;
+	Logo -> Boxer;
+	Logo -> Etoys;
+	Logo -> NetLogo;
+	Logo -> KTurtle;
+	"Oberon-2" -> "Component Pascal";
+	REXX -> NetRexx;
+	"C*" -> "Dataparallel-C";
+	Assembly -> C;
+	"Kent Recursive Calculator"	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Kent Recursive Calculator" -> Miranda;
+	"C#" -> Nemerle;
+	"C#" -> Dart;
+	"C#" -> D;
+	"C#" -> Java;
+	Turing -> "Object-Oriented Turing";
+	Turing -> "Turing Plus";
+	"Object Pascal" -> Oxygene;
+	"Object Pascal" -> "C Sharp";
+	"Object Pascal" -> "Turbo Pascal";
+	"Object Pascal" -> "Free Pascal";
+	"Object Pascal" -> "C#";
+	"Object Pascal" -> Java;
+	COWSEL -> "POP-2";
+	MUMPS -> "Caché ObjectScript";
+	MUMPS -> PSL;
+	KRC -> Miranda;
+	KRC -> Haskell;
+	HyperTalk	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	HyperTalk -> ECMAScript;
+	HyperTalk -> LiveCode;
+	HyperTalk -> JavaScript;
+	occam -> Go;
+	occam -> Ease;
+	"ALGOL W"	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"ALGOL W" -> Pascal;
+	"ALGOL Y" -> "ALGOL 68";
+	OCaml -> Rust;
+	OCaml -> "F#";
+	OCaml -> ATS;
+	OCaml -> Opa;
+	OCaml -> Scala;
+	"SP/k" -> Turing;
+	Hope -> Mercury;
+	Hope -> Miranda;
+	Hope -> Haskell;
+	Hope -> "Standard ML";
+	Squirrel -> MiniD;
+	Python -> Go;
+	Python -> ECMAScript;
+	Python -> Swift;
+	Python -> "citation needed";
+	Python -> JavaScript;
+	Python -> "F#";
+	Python -> Falcon;
+	Python -> Cel;
+	Python -> Groovy;
+	Python -> Cobra;
+	Python -> "Stackless Python";
+	Python -> Julia;
+	Python -> Io;
+	Python -> D;
+	Python -> Ruby;
+	Boo	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Python -> Boo;
+	Python -> RPython;
+	Python -> Cython;
+	colorForth	 [fillcolor=yellow,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Polyphonic C Sharp"	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Polyphonic C Sharp" -> Cω;
+	SISAL -> Haskell;
+	SISAL -> SAC;
+	Clean -> "Quark Framework";
+	Clean -> Haskell;
+	"F Sharp"	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"F Sharp" -> LiveScript;
+	"F Sharp" -> "F*";
+	"F Sharp" -> "C#";
+	Io -> Luna;
+	Potion	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Io -> Potion;
+	Io -> "Restricted Io";
+	Io -> Ioke;
+	Io -> Fancy;
+	Lucid -> PureData;
+	Lucid -> "Granular Lucid";
+	Lucid -> GIPSY;
+	Lucid -> SISAL;
+	Lucid -> Lustre;
+	T -> Oaklisp;
+	T -> EuLisp;
+	T -> Joule;
+	TypeScript -> AtScript;
+	JOSS	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=1.7];
+	JOSS -> FOCAL;
+	JOSS -> BASIC;
+	JOSS -> TELCOMP;
+	JOSS -> MUMPS;
+	JOSS -> "CAL (Joss family)";
+	Icon -> "C Sharp";
+	Icon -> Unicon;
+	Icon -> Python;
+	D -> Swift;
+	D -> DScript;
+	D -> Vala;
+	D -> MiniD;
+	D -> Genie;
+	D -> Qore;
+	Alice	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"Standard ML" -> Rust;
+	"Standard ML" -> Haskell;
+	"Standard ML" -> "Dependent ML";
+	"Standard ML" -> OCaml;
+	"Standard ML" -> Alice;
+	Oz -> Alice;
+	Oz -> Scala;
+	Caml -> "F#";
+	ooREXX -> NetRexx;
+	NewtonScript -> Cel;
+	NewtonScript -> Io;
+	Sketchpad -> Smalltalk;
+	SQL	 [fillcolor=green,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	SQL -> "Windows PowerShell";
+	SQL -> JPQL;
+	SQL -> LINQ;
+	SQL -> SOQL;
+	SQL -> "SQL-92";
+	SQL -> "SQL:2008";
+	SQL -> "SQL:2003";
+	SQL -> "SQL:2006";
+	SQL -> CQL;
+	SQL -> "SQL:1999";
+	SQL -> jOOQ;
+	SQL -> "SQL:2011";
+	SQL -> "Language Integrated Query";
+	Java -> ECMAScript;
+	Java -> "Quark Framework";
+	Java -> "Ada 2005";
+	Java -> "C Sharp";
+	Java -> JavaScript;
+	Java -> Pizza;
+	Java -> Kotlin;
+	Java -> "Generic Java";
+	Java -> Cool;
+	Java -> Vala;
+	Java -> Groovy;
+	Java -> PHP;
+	Java -> "J#";
+	Java -> "C#";
+	Java -> Python;
+	Java -> D;
+	Java -> Scala;
+	Java -> Seed7;
+	Java -> NetRexx;
+	Java -> Clojure;
+	Java -> Ada;
+	Java -> ActionScript;
+	BeanShell	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Java -> BeanShell;
+	Scala -> Swift;
+	Scala -> "citation needed";
+	Scala -> Ceylon;
+	Scala -> Kotlin;
+	Scala -> Lasso;
+	Fantom	 [fillcolor="#F664AF",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Scala -> Fantom;
+	PostScript -> PDF;
+	"Burroughs large systems" -> Forth;
+	Forth -> Factor;
+	Forth -> MUF;
+	Forth -> Cel;
+	Forth -> RPL;
+	Forth -> REBOL;
+	Forth -> "Open Firmware";
+	Forth -> colorForth;
+	Forth -> PostScript;
+	Etoys -> Croquet;
+	Etoys -> Scratch;
+	"Modula-2+" -> "Modula-3";
+	Ruby -> Swift;
+	Ruby -> Falcon;
+	Ruby -> "Perl 6";
+	Ruby -> Groovy;
+	Ruby -> Elixir;
+	Ruby -> Mirah;
+	Ruby -> Reia;
+	Ruby -> Julia;
+	Ruby -> D;
+	Ruby -> Clojure;
+	Ruby -> Nu;
+	Ruby -> Ioke;
+	Ruby -> potion;
+	Ruby -> Fancy;
+	Cω -> "Joins Concurrency Library";
+	Cω -> "C Sharp";
+	Cω -> LINQ;
+	Cω -> "C#";
+	COMTRAN	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	COMTRAN -> COBOL;
+	PLEX	 [fillcolor=blue,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	PLEX -> Erlang;
+	Clojure -> Elixir;
+	Prolog -> Mercury;
+	Prolog -> Erlang;
+	Prolog -> CHR;
+	Prolog -> "Visual Prolog";
+	Prolog -> Oz;
+	Prolog -> Strand;
+	Prolog -> Datalog;
+	Prolog -> KL0;
+	Prolog -> KL1;
+	Coopr	 [fillcolor="#FF8ABA",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	AMPL -> Coopr;
+	Newsqueak	 [fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Newsqueak -> Go;
+	Newsqueak -> Rust;
+	Newsqueak -> Limbo;
+	Alef	 [fillcolor="#FF7F00",
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	Newsqueak -> Alef;
+	"FACT (computer language)"	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=0.7];
+	"FACT (computer language)" -> COBOL;
+	"Bourne shell" -> AWK;
+	"EXEC 2" -> Rexx;
+	Ada -> Rust;
+	Ada -> "Ravenscar profile";
+	Ada -> VHDL;
+	Ada -> "C++";
+	Ada -> SPARK;
+	Ada -> Eiffel;
+	Ada -> MOO;
+	Ada -> Java;
+	Ada -> Seed7;
+	Ada -> Ruby;
+	Ada -> "PL/SQL";
+	"infix notation" -> RPL;
+	QML -> Qt;
+	Datalog -> SQL;
+	J -> NumPy;
+	J -> SuperCollider;
+	ALGOL	 [fillcolor=violet,
+		fixedsize=false,
+		shape=circle,
+		style=filled,
+		width=2.7];
+	ALGOL -> CPL;
+	ALGOL -> "Modula-3";
+	ALGOL -> Scheme;
+	ALGOL -> Dylan;
+	ALGOL -> "PL/I";
+	ALGOL -> C;
+	ALGOL -> Icon;
+	ALGOL -> "Modula-2+";
+	ALGOL -> Ada;
+	ALGOL -> Pascal;
+	ALGOL -> Simula;
+	Z -> Eiffel;
+	Pascal -> Oberon;
+	Pascal -> -3;
+	Pascal -> -2;
+	Pascal -> Go;
+	Pascal -> "Modula-3";
+	Pascal -> "Modula-2";
+	Pascal -> Limbo;
+	Pascal -> Oxygene;
+	Pascal -> "Turbo Pascal";
+	Pascal -> "UCSD Pascal";
+	Pascal -> Cool;
+	Pascal -> Borland;
+	Pascal -> Modula;
+	Pascal -> "Component Pascal";
+	Pascal -> Turing;
+	Pascal -> "Object Pascal";
+	Pascal -> SISAL;
+	Pascal -> Java;
+	Pascal -> Seed7;
+	Pascal -> "Modula-2+";
+	Pascal -> Ada;
+	"A+" -> K;
+	"Common Lisp" -> SubL;
+	"Common Lisp" -> "Emacs Lisp";
+	"Common Lisp" -> Moose;
+	"Common Lisp" -> Sather;
+	"Common Lisp" -> EuLisp;
+	"Common Lisp" -> Dylan;
+	"Common Lisp" -> SKILL;
+	"Common Lisp" -> ISLISP;
+	"Common Lisp" -> R;
+	"Common Lisp" -> "Cadence SKILL";
+	"Common Lisp" -> Julia;
+	"Common Lisp" -> Clojure;
+	"mathematical notation" -> APL;
+	Simula -> Smalltalk;
+	Simula -> "C++";
+	Simula -> CLU;
+	Simula -> Eiffel;
+	Simula -> "Object-oriented programming languages";
+	FORTRAN -> C;
+	Alef -> Go;
+	Alef -> Rust;
+	Alef -> Limbo;
+	BCPL -> B;
+	BCPL -> C;
+}
