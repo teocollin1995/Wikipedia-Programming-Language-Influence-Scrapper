@@ -1,6 +1,7 @@
 Wikipedia Programming Language Influence Scrapper
 ==================
 -----------------
+This is just an exercise for fun. Someone has probably already done it...
 Results:
 ![Alt text](/Sampleoutput/result.png "Results!")
 -----------------
